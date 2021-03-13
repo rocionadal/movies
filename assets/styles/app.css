@@ -21,7 +21,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 0 2.5rem;
-  background: #1687a7;
+  background: #16697a;
 }
 
 header h1 {
@@ -32,9 +32,9 @@ header h1 {
 
 header button {
   padding: 0.5rem 1rem;
-  background: #f4f9f9;
-  border: 1px solid #f4f9f9;
-  color: black;
+  background: #db6400;
+  border: 1px solid #db6400;
+  color: white;
   border-radius: 6px;
   box-shadow: 0 1px 8px rgba(0, 0, 0, 0.26);
   cursor: pointer;
@@ -42,8 +42,8 @@ header button {
 
 header button:hover,
 header button:active {
-  background: #d3e0ea;
-  border-color: #d3e0ea;
+  background: #d87627;
+  border-color: #d87627;
 }
 
 label {
@@ -67,8 +67,8 @@ input:focus {
 .btn {
   font: inherit;
   padding: 0.5rem 1.5rem;
-  border: 1px solid #00329e;
-  background: #00329e;
+  border: 1px solid #16697a;
+  background: #16697a;
   color: white;
   border-radius: 6px;
   box-shadow: 0 1px 8px rgba(0, 0, 0, 0.26);
@@ -78,12 +78,12 @@ input:focus {
 
 .btn:hover,
 .btn:active {
-  background: #f67722;
-  border-color: #f67722;
+  background: #db6400;
+  border-color: #db6400;
 }
 
 .btn--passive {
-  color: #00329e;
+  color: #16697a;
   background: transparent;
   border: none;
   box-shadow: none;
@@ -91,7 +91,7 @@ input:focus {
 
 .btn--passive:hover,
 .btn--passive:active {
-  background: #aec6f8;
+  background: #bed9dd;
 }
 
 .btn--danger {
@@ -126,8 +126,8 @@ input:focus {
 .modal .modal__title {
   margin: 0;
   padding: 1rem;
-  border-bottom: 1px solid #00329e;
-  background: #00329e;
+  border-bottom: 1px solid #16697a;
+  background: #16697a;
   color: white;
   border-radius: 10px 10px 0 0;
 }
@@ -163,7 +163,7 @@ input:focus {
 .movie-element p {
   color: white;
   display: inline;
-  background: #f67722;
+  background: #db6400;
   padding: 0.25rem 1rem;
   border-radius: 15px;
 }
