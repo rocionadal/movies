@@ -20,8 +20,14 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 2.5rem;
+  padding: 0 3.5rem;
   background: #16697a;
+}
+
+@media (max-width: 700px) {
+  header {
+    padding: 2rem;
+  }
 }
 
 header h1 {
@@ -151,7 +157,7 @@ input:focus {
 
 .movie-element h2,
 .movie-element p {
-  font-size: 1.25rem;
+  font-size: 1rem;
   margin: 0;
 }
 
